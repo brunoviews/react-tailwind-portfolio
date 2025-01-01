@@ -1,6 +1,6 @@
 import React from "react";
 
-const SunIcon = () => {
+const Sun = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -26,4 +26,4 @@ const SunIcon = () => {
   );
 };
 
-export default SunIcon;
+export default Sun;

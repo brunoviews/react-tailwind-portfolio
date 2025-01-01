@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import SunIcon from "./icons/SunIcon";
 import MoonIcon from "./icons/MoonIcon";
+import Sun from "./icons/Sun";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState("light");
 
-  
+
   useEffect(() => {
     // Cambiar el estado al hacer scroll
     const handleScroll = () => {
@@ -79,7 +79,7 @@ const Navbar = () => {
         className="ml-4 w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 text-white dark:bg-gray-700 hover:bg-gray-700 dark:hover:bg-gray-600 transition"
         aria-label="Toggle Theme"
       >
-        {theme === "light" ? <SunIcon /> : <MoonIcon />}
+        {theme === "light" ? <Sun />  : <MoonIcon />}
       </button>
     </nav>
   );
