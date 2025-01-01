@@ -6,6 +6,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState("light");
 
+  
   useEffect(() => {
     // Cambiar el estado al hacer scroll
     const handleScroll = () => {
@@ -68,7 +69,6 @@ const Navbar = () => {
       <button
         href="mailto:brunogustavo68@gmail.com"
         className="px-4 py-2 text-sm font-medium text-gray-800 dark:text-white hover:text-purple-400 transition"
-        
       >
         Contacto
       </button>
