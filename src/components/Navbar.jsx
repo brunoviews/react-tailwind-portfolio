@@ -4,7 +4,7 @@ import Sun from "./icons/Sun";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
 
   useEffect(() => {
