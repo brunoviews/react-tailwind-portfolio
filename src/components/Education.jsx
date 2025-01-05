@@ -46,23 +46,26 @@ const Education = () => {
               <div className="absolute w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-600 rounded-full mt-1.5 -left-[7px]"></div>
 
               {/* Contenido alineado */}
-              <div className="flex-1">
+              <div className="flex-1 ">
                 {/* Fecha */}
                 <time className="block text-sm font-normal leading-none text-gray-500 dark:text-gray-400 mb-1">
                   {item.date}
                 </time>
 
                 {/* Título, Etiqueta y Escuela */}
-                <h3 className="text-xl font-bold text-gray-800 dark:text-white">
+                
+                <h3 className="text-xl pt-2   font-bold text-gray-800 items-center dark:text-white">
                   {item.title}
+                  
                   {item.tag && (
-                    <span className="ml-3 text-white dark:text-black bg-green-600 text-xs font-medium px-2.5 py-0.5 rounded">
+                    <span className="ml-3 text-white  dark:text-white bg-green-600 text-xs font-medium px-2 py-1  rounded">
                       {item.tag}
                     </span>
                   )}
                   <div className="mt-2 w-fit text-sm font-medium px-2.5 py-0.5 rounded bg-gradient-to-r from-purple-600 to-pink-600 text-white">
                     {item.school}
                   </div>
+                  
                 </h3>
               </div>
 

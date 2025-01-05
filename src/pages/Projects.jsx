@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       title: "E-commerce Store",
-      description: "A responsive e-commerce website with cart functionality.",
+      description: "Tienda online básica con funciones de búsqueda, filtro y carrito de compras.",
       image: "/projects/ecommerce.webp",
       liveLink: "https://basic-ecommerce-eight.vercel.app/",
       githubLink: "https://github.com/brunoviews/basic-ecommerce",
@@ -34,12 +34,10 @@ const Projects = () => {
   ];
 
   return (
-    
     <section
       className="bg-white dark:bg-[#000] text-gray-800 dark:text-white py-12 transition-colors duration-500"
       id="projects"
     >
-      
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="flex items-center mb-12 text-3xl font-semibold gap-x-3 text-gray-800 dark:text-white">
           <CodeIcon /> Personal Projects
