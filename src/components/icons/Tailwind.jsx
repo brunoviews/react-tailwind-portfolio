@@ -1,6 +1,8 @@
 const Tailwind = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 54 33">
+    <svg 
+    className="h-6 w-6"
+    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 54 33">
       <g clip-path="url(#a)">
         <path
           fill="#38bdf8"

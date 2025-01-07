@@ -6,6 +6,26 @@ import CodeIcon from "../components/icons/CodeIcon";
 const Projects = () => {
   const projects = [
     {
+      title: "Airbnb Clone",
+      description:
+        "Clon de la página web de Airbnb con funcionalidades de búsqueda y filtrado.",
+      image: "/projects/airbnb.webp",
+      liveLink: "https://airbbnb-clone.vercel.app/",
+      githubLink: "https://github.com/brunoviews/airbbnb-clone",
+      tech: "React - Tailwind CSS",
+    },
+
+    {
+      title: "E-commerce Store",
+      description:
+        "Tienda online básica con funciones de búsqueda, filtro y carrito de compras.",
+      image: "/projects/ecommerce.webp",
+      liveLink: "https://basic-ecommerce-eight.vercel.app/",
+      githubLink: "https://github.com/brunoviews/basic-ecommerce",
+      tech: "React - CSS - Local Storage",
+    },
+
+    {
       title: "Personal Task Manager",
       description:
         "Aplicación de gestión de tareas que permite añadir, completar y eliminar.",
@@ -23,14 +43,6 @@ const Projects = () => {
       githubLink: "https://github.com/brunoviews/taskmanager",
       tech: "React - CSS - Local Storage",
     },
-    {
-      title: "E-commerce Store",
-      description: "Tienda online básica con funciones de búsqueda, filtro y carrito de compras.",
-      image: "/projects/ecommerce.webp",
-      liveLink: "https://basic-ecommerce-eight.vercel.app/",
-      githubLink: "https://github.com/brunoviews/basic-ecommerce",
-      tech: "React - CSS - Local Storage",
-    },
   ];
 
   return (
@@ -42,7 +54,7 @@ const Projects = () => {
         <h2 className="flex items-center mb-12 text-3xl font-semibold gap-x-3 text-gray-800 dark:text-white">
           <CodeIcon /> Personal Projects
         </h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className=" grid grid-cols-2  max-sm:grid gap-8 max-sm:grid-cols-1">
           {projects.map((project, index) => (
             <div
               key={index}

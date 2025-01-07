@@ -3,6 +3,7 @@ import React from "react";
 const SocialLinks = ({ link, icon, text }) => {
   return (
     <a
+      download=''
       target="_blank"
       rel="noopener noreferrer"
       role="link"
