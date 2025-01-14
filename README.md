@@ -1,8 +1,13 @@
-# React + Vite
+# Portfolio using React and Tailwind. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The design is based on a public Figma project: (https://www.figma.com/design/ezFdA7iRou8gMi8JejoUHF/Portfolio-Ui-Design-Template-(Community)?node-id=183-991&p=f&t=RcsL3yacAr6efcNe-0).
 
-Currently, two official plugins are available:
+For this project, I used components from Flowbite.
+Icons: Tabler Icons (Open source: https://tabler.io/icons)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is also inspired by another portfolio coded by @midudev (https://github.com/midudev/porfolio.dev).
+
+
+
+![image](https://github.com/user-attachments/assets/571891f3-e82b-4a85-bd10-29713a2edf18)
+
