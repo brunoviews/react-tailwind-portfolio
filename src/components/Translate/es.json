@@ -1,0 +1,106 @@
+{
+  "header": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Hola, mi nombre es",
+    "subtitle": "Soy",
+    "subtitle2": "Desarrollador Frontend",
+    "subtitle3": "Soy Desarrollador Front-End con experiencia",
+    "subtitle4": "Actualmente, estoy ampliando mis conocimientos en",
+    "tech": "Inteligencia Artificial",
+    "cvbutton": "Descargar CV",
+    "chatbotinfo": "Puedes probar mi",
+    "chatbotinfo2": "abajo a la derecha de tu navegador."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "jobs": [
+      {
+        "id": "daroma",
+        "company": "Daroma Innovations",
+        "position": "Desarrollador Frontend",
+        "date": "2024 - Presente",
+        "description": "Desarrollo de varios sitios web para los clientes de la empresa, utilizando tecnologías como React, Next.js y TailwindCSS",
+        "link": "https://calculai.vercel.app/"
+      }
+    ],
+    "ctabutton": "Actualmente desarrollando este sitio"
+  },
+  "education": {
+    "title": "Educación",
+    "schools": [
+      {
+        "id": "tokio",
+        "position": "Desarrollador Frontend",
+        "date": "Graduado en Nov 2024",
+        "description": "Aprendiendo a desarrollar aplicaciones web con React, desde la configuración del entorno de desarrollo hasta el despliegue de aplicaciones en producción.",
+        "link": "https://www.tokioschool.com/formaciones/cursos-programacion/front-end/",
+        "school": "Tokio School",
+        "tag": "Último"
+      },
+      {
+        "id": "seas",
+        "position": "Experto Universitario en Desarrollo de Aplicaciones Web",
+        "date": "Graduado en Nov 2024",
+        "description": "Cubriendo diseño con HTML y CSS3, programación avanzada en JavaScript y desarrollo backend con PHP y MySQL, desde la configuración hasta el despliegue de aplicaciones web.",
+        "link": "https://www.seas.es/informatica/experto-universitario-desarrollo-aplicaciones-web",
+        "school": "SEAS Estudios Abiertos"
+      },
+      {
+        "id": "fp",
+        "position": "Técnico Superior en Sistemas de Telecomunicaciones e Informáticos",
+        "date": "Graduado en Jun 2017",
+        "description": "Diseñar, calcular, configurar y planificar instalaciones y sistemas de telecomunicaciones, asegurando el cumplimiento de normativa, requisitos del cliente y condiciones técnicas, además de planificar su mantenimiento según recomendaciones y reglamentos.",
+        "link": "https://www.todofp.es/que-estudiar/familias-profesionales/electricidad-electronica/sistemas-telecomunicaciones-informaticos.html",
+        "school": "IES Torre de los Herberos"
+      }
+    ],
+    "ctabutton": "Ver más"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "project": [
+      {
+        "id": "airbnb",
+        "title": "Airbnb Clone",
+        "description": "Clon de la página web de Airbnb con funcionalidades de búsqueda y filtrado.",
+        "image": "/projects/airbnb.webp",
+        "liveLink": "https://airbbnb-clone.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/airbbnb-clone",
+        "tech": "React - Tailwind CSS"
+      },
+      {
+        "id": "ecommerce",
+        "title": "E-commerce Store",
+        "description": "Tienda online básica con funciones de búsqueda, filtro y carrito de compras.",
+        "image": "/projects/ecommerce.webp",
+        "liveLink": "https://basic-ecommerce-eight.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/basic-ecommerce",
+        "tech": "React - CSS - Local Storage"
+      },
+      {
+        "id": "todoapp",
+        "title": "To Do List App",
+        "description": "Aplicación de gestión de tareas que permite añadir, completar y eliminar.",
+        "image": "/projects/lite.webp",
+        "liveLink": "https://taskmaster-livid.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/taskmaster",
+        "tech": "React - CSS - Local Storage"
+      },
+      {
+        "id": "taskmanager",
+        "title": "Task Manager App",
+        "description": "Aplicación de gestión de tareas colaborativa diseñada para organizar y priorizar tareas en equipo.",
+        "image": "/projects/master.webp",
+        "liveLink": "https://taskmanager-umber.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/taskmanager",
+        "tech": "React - CSS - Local Storage"
+      }
+    ]
+  }
+}

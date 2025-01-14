@@ -1,0 +1,107 @@
+{
+    "header": {
+        "home": "Home",
+        "projects": "Projects",
+        "experience": "Experience",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "hero": {
+        "title": "Hello, my name is",
+        "subtitle": "I'm a",
+        "subtitle2": "Frontend Developer",
+        "subtitle3": "experienced in building responsive websites and web applications using",
+        "subtitle4": "Currently, I am expanding my knowledge in",
+        "tech": "Artificial Intelligence",
+        "cvbutton": "Download CV",
+        "chatbotinfo": "Try my",
+        "chatbotinfo2": "in the right corner of the screen."
+    },
+    "experience": {
+        "title": "Experience",
+        "jobs": [
+            {
+                "id": "daroma",
+                "company": "Daroma Innovations",
+                "position": "Frontend Developer",
+                "date": "2024 - Present",
+                "description": "Development of various websites for the company's clients, using technologies such as React, AstroJS, and TailwindCSS",
+                "link": "https://calculai.vercel.app/"
+            }
+        ],
+        "ctabutton": "Currently Developing this site"
+    },
+    "education": {
+        "title": "Education",
+        "schools": [
+            {
+                "id": "tokio",
+                "position": "Frontend Developer",
+                "date": "Graduated in Nov 2024",
+                "description": "Learning to develop web applications with React, from setting up the development environment to deploying applications in production.",
+                "link": "https://www.tokioschool.com/formaciones/cursos-programacion/front-end/",
+                "school": "Tokio School",
+                "tag": "Latest"
+                
+            },
+            {
+                "id": "seas",
+                "position": "University Expert in Web Application Development",
+                "date": "Graduated in Nov 2024",
+                "description": "Covering design with HTML and CSS3, advanced programming in JavaScript, and backend development with PHP and MySQL, from setup to web application deployment.",
+                "link": "https://www.seas.es/informatica/experto-universitario-desarrollo-aplicaciones-web",
+                "school": "SEAS Estudios Abiertos"
+            },
+            {
+                "id": "fp",
+                "position": "Higher Technician in Telecommunications and Computer Systems",
+                "date": "Graduated in Jun 2017",
+                "description": "Design, calculate, configure, and plan telecommunications systems and installations, ensuring compliance with regulations, client requirements, and technical specifications, as well as planning their maintenance according to recommendations and standards",
+                "link": "https://www.todofp.es/que-estudiar/familias-profesionales/electricidad-electronica/sistemas-telecomunicaciones-informaticos.html",
+                "school": "IES Torre de los Herberos"
+            }
+        ],
+        "ctabutton": "More details"
+    },
+    "projects": {
+        "title": "Projects",
+        "project": [
+            {
+                "id": "airbnb",
+                "title": "Airbnb Clone",
+                "description": "Clone of the Airbnb website with search and filter functionalities.",
+                "image": "/projects/airbnb.webp",
+                "liveLink": "https://airbbnb-clone.vercel.app/",
+                "githubLink": "https://github.com/brunoviews/airbbnb-clone",
+                "tech": "React - Tailwind CSS"
+            },
+            {
+                "id": "ecommerce",
+                "title": "E-commerce Store",
+                "description": "Basic online store with search, filter, and shopping cart functions.",
+                "image": "/projects/ecommerce.webp",
+                "liveLink": "https://basic-ecommerce-eight.vercel.app/",
+                "githubLink": "https://github.com/brunoviews/basic-ecommerce",
+                "tech": "React - CSS - Local Storage"
+            },
+            {
+                "id": "todoapp",
+                "title": "To Do List App",
+                "description": "Task management application that allows adding, completing, and deleting tasks.",
+                "image": "/projects/lite.webp",
+                "liveLink": "https://taskmaster-livid.vercel.app/",
+                "githubLink": "https://github.com/brunoviews/taskmaster",
+                "tech": "React - CSS - Local Storage"
+            },
+            {
+                "id": "taskmanager",
+                "title": "Task Manager App",
+                "description": "Collaborative task management application designed to organize and prioritize team tasks.",
+                "image": "/projects/master.webp",
+                "liveLink": "https://taskmanager-umber.vercel.app/",
+                "githubLink": "https://github.com/brunoviews/taskmanager",
+                "tech": "React - CSS - Local Storage"
+            }
+        ]
+    }
+}

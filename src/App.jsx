@@ -6,10 +6,12 @@ import Footer from "./components/Footer";
 import Education from "./components/Education";
 import Experiencia from "./components/Experiencia";
 
+
+
 const App = () => {
   return (
     <>
-      <div className="">
+      <div>
         <Navbar />
         <Hero />
         <Experiencia />
