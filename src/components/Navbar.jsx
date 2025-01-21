@@ -49,21 +49,21 @@ const Navbar = () => {
     >
       <button
         href="#hero"
-        className="px-2 py-2 text-sm font-medium text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition"
+        className="px-2 py-2 text-sm font-bold text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition"
         onClick={() => handleScrollToSection("#hero")}
       >
         {t("header.home")}
       </button>
       <button
         href="#projects"
-        className="px-2 py-2 text-sm font-medium text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition"
+        className="px-2 py-2 text-sm font-bold text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition"
         onClick={() => handleScrollToSection("#projects")}
       >
         {t("header.projects")}
       </button>
       <button
         href="#experience"
-        className="px-2 py-2 text-sm font-medium text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition"
+        className="px-2 py-2 text-sm font-bold text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition"
         onClick={() => handleScrollToSection("#experience")}
       >
         {t("header.experience")}
@@ -72,7 +72,7 @@ const Navbar = () => {
       <button>
         <a
           href="mailto:brunogustavo68@gmail.com"
-          className="px-2 py-2 text-sm font-medium text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition border-r-2 border-slate-600"
+          className="px-2 py-2 text-sm font-bold text-gray-800 dark:text-white dark:hover:text-purple-400 dark:transition hover:text-purple-400 transition border-r-2 border-slate-600"
         >
           {t("header.contact")}
         </a>

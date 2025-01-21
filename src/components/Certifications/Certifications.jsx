@@ -21,11 +21,11 @@ const Certifications = ({ items }) => {
   return (
     <>
       <div className="bg-whites dark:bg-black py-12 flex justify-center">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4 max-md:grid-cols-1">
           {items.map((item, index) => (
             <div key={index} className="m-2 shadow-md">
               <img
-                className="rounded-lg w-[500px] h-[400px] shadow-md shadow-fuchsia-300"
+                className="rounded-lg w-[500px] h-[400px] max-md:w-[400px]  max-md:h-[300px] shadow-md shadow-fuchsia-300"
                 src={item.logo}
                 alt={item.name}
               />
