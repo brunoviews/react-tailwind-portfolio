@@ -25,7 +25,7 @@
                 "company": "Daroma Innovations",
                 "position": "Frontend Developer",
                 "date": "2024 - Present",
-                "description": "Development of various websites for the company's clients, using technologies such as React, AstroJS, and TailwindCSS",
+                "description": "Development of various websites for the company's clients, using technologies such as React, Wordpress, and TailwindCSS",
                 "link": "https://calculai.vercel.app/"
             }
         ],
@@ -50,6 +50,7 @@
                 "date": "Graduated in Nov 2024",
                 "description": "Covering design with HTML and CSS3, advanced programming in JavaScript, and backend development with PHP and MySQL, from setup to web application deployment.",
                 "link": "https://www.seas.es/informatica/experto-universitario-desarrollo-aplicaciones-web",
+               
                 "school": "SEAS Estudios Abiertos"
             },
             {
@@ -69,11 +70,11 @@
             {
                 "id": "airbnb",
                 "title": "Airbnb Clone",
-                "description": "Clone of the Airbnb website with search and filter functionalities.",
+                "description": "Clone of the Airbnb website with filtering functionalities. I have integrated a small Backend deployed on Render. The database is hosted on MongoDB Atlas",
                 "image": "/projects/airbnb.webp",
                 "liveLink": "https://airbbnb-clone.vercel.app/",
                 "githubLink": "https://github.com/brunoviews/airbbnb-clone",
-                "tech": "React - Tailwind CSS"
+                "tech": "React | Nodejs | Mongodb Atlas | Render | Tailwind CSS | Filters"
             },
             {
                 "id": "ecommerce",
@@ -82,7 +83,7 @@
                 "image": "/projects/ecommerce.webp",
                 "liveLink": "https://basic-ecommerce-eight.vercel.app/",
                 "githubLink": "https://github.com/brunoviews/basic-ecommerce",
-                "tech": "React - CSS - Local Storage"
+                "tech": "React | CSS | Local Storage | React Hooks"
             },
             {
                 "id": "todoapp",
@@ -91,7 +92,7 @@
                 "image": "/projects/lite.webp",
                 "liveLink": "https://taskmaster-livid.vercel.app/",
                 "githubLink": "https://github.com/brunoviews/taskmaster",
-                "tech": "React - CSS - Local Storage"
+                "tech": "React | CSS | Local Storage | React Hooks"
             },
             {
                 "id": "taskmanager",
@@ -100,7 +101,7 @@
                 "image": "/projects/master.webp",
                 "liveLink": "https://taskmanager-umber.vercel.app/",
                 "githubLink": "https://github.com/brunoviews/taskmanager",
-                "tech": "React - CSS - Local Storage"
+                "tech": "React | CSS | Local Storage | React Hooks"
             }
         ]
     }

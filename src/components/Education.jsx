@@ -19,12 +19,10 @@ const educations = (t("education.schools", { returnObjects: true }));
         </h2>
         <ol className="relative border-l-2 border-gray-300 dark:border-gray-700">
           {educations.map((education, index) => (
-            <motion.li
+            <div
               key={education.id}
               className="mb-10 ml-6 flex flex-col md:flex-row items-start gap-4"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: index * 0.2 }}
+              
             >
               {/* Punto indicador */}
               <div className="absolute w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-600 rounded-full mt-1.5 -left-[7px]"></div>
@@ -65,12 +63,12 @@ const educations = (t("education.schools", { returnObjects: true }));
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-purple-500 to-pink-600 rounded-lg hover:scale-105 transition-transform"
                   >
-                    Saber más
+                    {t("education.ctabutton")}
                     <ArrowIcon className="ml-2" />
                   </a>
                 )}
               </div>
-            </motion.li>
+            </div>
           ))}
         </ol>
       </div>

@@ -6,13 +6,16 @@ import Footer from "./components/Footer";
 import Education from "./components/Education";
 import Experiencia from "./components/Experiencia";
 import Certifications from "./components/Certifications/Certifications";
-
-
+import { motion } from "framer-motion";
 
 const App = () => {
   return (
     <>
-      <div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Navbar />
         <Hero />
         <Experiencia />
@@ -20,7 +23,7 @@ const App = () => {
         <Certifications />
         <Projects />
         <Footer />
-      </div>
+      </motion.div>
     </>
   );
 };

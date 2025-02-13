@@ -34,7 +34,7 @@ const Projects = () => {
               <p className="text-gray-600 dark:text-gray-400 mb-2 text-center">
                 {project.description}
               </p>
-              <p className="text-sm text-blue-600 dark:text-blue-400 mb-4 text-center">
+              <p className="text-sm font-bold text-blue-600 dark:text-blue-400 mb-4 text-center">
                 {project.tech}
               </p>
               <div className="flex justify-center gap-7 items-center">

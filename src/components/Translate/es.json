@@ -10,7 +10,7 @@
     "title": "Hola, mi nombre es",
     "subtitle": "Soy",
     "subtitle2": "Desarrollador Frontend",
-    "subtitle3": " con experiencia",
+    "subtitle3": " con experiencia en",
     "subtitle4": "Actualmente, estoy ampliando mis conocimientos en",
     "tech": "Inteligencia Artificial",
     "cvbutton": "Descargar CV",
@@ -68,11 +68,11 @@
       {
         "id": "airbnb",
         "title": "Airbnb Clone",
-        "description": "Clon de la página web de Airbnb con funcionalidades de búsqueda y filtrado.",
+        "description": "Clon de la página web de Airbnb con funcionalidades de filtro. He incorporado un pequeño Backend desplegado en Render. La base de datos está alojada en MongoDB Atlas.",
         "image": "/projects/airbnb.webp",
         "liveLink": "https://airbbnb-clone.vercel.app/",
         "githubLink": "https://github.com/brunoviews/airbbnb-clone",
-        "tech": "React - Tailwind CSS"
+        "tech": "React | Nodejs | Mongodb Atlas | Render | Tailwind CSS | Filters"
       },
       {
         "id": "ecommerce",
@@ -81,7 +81,9 @@
         "image": "/projects/ecommerce.webp",
         "liveLink": "https://basic-ecommerce-eight.vercel.app/",
         "githubLink": "https://github.com/brunoviews/basic-ecommerce",
-        "tech": "React - CSS - Local Storage"
+        "tech": "React | CSS | Local Storage | React Hooks | Filters"
+        
+        
       },
       {
         "id": "todoapp",
@@ -90,7 +92,8 @@
         "image": "/projects/lite.webp",
         "liveLink": "https://taskmaster-livid.vercel.app/",
         "githubLink": "https://github.com/brunoviews/taskmaster",
-        "tech": "React - CSS - Local Storage"
+        "tech": "React | CSS | Local Storage | React Hooks"
+
       },
       {
         "id": "taskmanager",
@@ -99,7 +102,8 @@
         "image": "/projects/master.webp",
         "liveLink": "https://taskmanager-umber.vercel.app/",
         "githubLink": "https://github.com/brunoviews/taskmanager",
-        "tech": "React - CSS - Local Storage"
+        "tech": "React | CSS | Local Storage | React Hooks"
+        
       }
     ]
   }
