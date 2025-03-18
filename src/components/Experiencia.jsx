@@ -47,17 +47,7 @@ const Experiencia = () => {
                 <p className="text-base font-normal text-gray-600 dark:text-gray-400 mb-4">
                   {job.description}
                 </p>
-                {job.link && (
-                  <a
-                    href={job.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-purple-500 to-pink-600 rounded-lg hover:scale-105 transition-transform"
-                  >
-                    {t("experience.ctabutton")}
-                    <ArrowIcon className="ml-2" />
-                  </a>
-                )}
+               
               </div>
             </li>
           ))}

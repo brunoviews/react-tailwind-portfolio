@@ -26,7 +26,7 @@ const Hero = () => {
         <p className="text-lg sm:text-xl text-gray-800 dark:text-gray-400 m-2">
           {t("hero.title")}
         </p>
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+        <h1 className="text-3xl sm:text-5xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
           Bruno
         </h1>
         <div className="mt-4 text-black dark:text-gray-300 max-w-md sm:max-w-xl text-base sm:text-lg text-balance">

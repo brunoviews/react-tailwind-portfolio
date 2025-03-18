@@ -11,7 +11,7 @@
         "subtitle": "I'm a",
         "subtitle2": "Frontend Developer",
         "subtitle3": "experienced in building responsive websites and web applications using",
-        "subtitle4": "Currently, I am expanding my knowledge in",
+        "subtitle4": "Currently, I'm expanding my knowledge in",
         "tech": "Artificial Intelligence",
         "cvbutton": "Download CV",
         "chatbotinfo": "Try my",
@@ -24,8 +24,8 @@
                 "id": "daroma",
                 "company": "Daroma Innovations",
                 "position": "Frontend Developer",
-                "date": "2024 - Present",
-                "description": "Development of various websites for the company's clients, using technologies such as React, Wordpress, and TailwindCSS",
+                "date": "Oct 2024 - Mar 2025",
+                "description": "Development of various websites for the company's clients. SEO/SEM analysis and optimization of web page loading speed.",
                 "link": "https://calculai.vercel.app/"
             }
         ],

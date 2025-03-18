@@ -15,7 +15,9 @@ const Certifications = ({ items }) => {
       logo: "/machine.webp",
     },
 
-    { logo: "/b2.webp" },
+    { logo: "/b2.webp",
+      name: "C English Level Certificate",
+     },
   ];
 
   return (
