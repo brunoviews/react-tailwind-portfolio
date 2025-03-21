@@ -18,10 +18,10 @@ const App = () => {
       >
         <Navbar />
         <Hero />
+        <Projects />
         <Experiencia />
         <Education />
         <Certifications />
-        <Projects />
         <Footer />
       </motion.div>
     </>

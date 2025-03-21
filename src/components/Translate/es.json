@@ -65,6 +65,26 @@
   "projects": {
     "title": "Proyectos",
     "project": [
+      
+      {
+        "id": "daromaweb",
+        "title": "Daroma Innovations",
+        "description": "Página web de la empresa Daroma Innovations. Diseño y desarrollo de la página web de la empresa. Animaciones y transiciones de página con Framer Motion.",
+        "image": "/projects/daroma.webp",
+        "liveLink": "https://daroma.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/daroma",
+        "tech": "React | UX/UI  | Framer Motion | CSS Animations"
+    },
+    {
+        "id": "digitaly",
+        "title": "Digitaly",
+        "description": "Web para un producto de Daroma Innovations que ofrece servicios financieros. Diseño y desarrollo de la página",
+        "image": "/projects/digitaly.webp",
+        "liveLink": "https://github.com/brunoviews/calculai",
+        "githubLink": "https://github.com/brunoviews/taskmanager",
+        "tech": "React | CSS | UX/UI | Material UI"
+    },
+      
       {
         "id": "airbnb",
         "title": "Airbnb Clone",
@@ -84,27 +104,8 @@
         "tech": "React | CSS | Local Storage | React Hooks | Filters"
         
         
-      },
-      {
-        "id": "todoapp",
-        "title": "To Do List App",
-        "description": "Aplicación de gestión de tareas que permite añadir, completar y eliminar.",
-        "image": "/projects/lite.webp",
-        "liveLink": "https://taskmaster-livid.vercel.app/",
-        "githubLink": "https://github.com/brunoviews/taskmaster",
-        "tech": "React | CSS | Local Storage | React Hooks"
-
-      },
-      {
-        "id": "taskmanager",
-        "title": "Task Manager App",
-        "description": "Aplicación de gestión de tareas colaborativa diseñada para organizar y priorizar tareas en equipo.",
-        "image": "/projects/master.webp",
-        "liveLink": "https://taskmanager-umber.vercel.app/",
-        "githubLink": "https://github.com/brunoviews/taskmanager",
-        "tech": "React | CSS | Local Storage | React Hooks"
-        
       }
+   
     ]
   }
 }

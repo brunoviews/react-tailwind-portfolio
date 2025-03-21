@@ -42,7 +42,6 @@
                 "link": "https://www.tokioschool.com/formaciones/cursos-programacion/front-end/",
                 "school": "Tokio School",
                 "tag": "Latest"
-                
             },
             {
                 "id": "seas",
@@ -50,7 +49,6 @@
                 "date": "Graduated in Nov 2024",
                 "description": "Covering design with HTML and CSS3, advanced programming in JavaScript, and backend development with PHP and MySQL, from setup to web application deployment.",
                 "link": "https://www.seas.es/informatica/experto-universitario-desarrollo-aplicaciones-web",
-               
                 "school": "SEAS Estudios Abiertos"
             },
             {
@@ -68,6 +66,24 @@
         "title": "Projects",
         "project": [
             {
+                "id": "daromaweb",
+                "title": "Daroma Innovations",
+                "description": "Company website developed for Daroma Innovations. The website is designed to showcase the company's services and portfolio.",
+                "image": "/projects/daroma.webp",
+                "liveLink": "https://daroma.vercel.app/",
+                "githubLink": "https://github.com/brunoviews/daroma",
+                "tech": "React | UX/UI  | Framer Motion | CSS Animations"
+            },
+            {
+                "id": "digitaly",
+                "title": "Digitaly",
+                "description": "Digitaly website that offers financial services.",
+                "image": "/projects/digitaly.webp",
+                "liveLink": "https://github.com/brunoviews/calculai",
+                "githubLink": "https://github.com/brunoviews/taskmanager",
+                "tech": "React | CSS | UX/UI | Material UI"
+            },
+            {
                 "id": "airbnb",
                 "title": "Airbnb Clone",
                 "description": "Clone of the Airbnb website with filtering functionalities. I have integrated a small Backend deployed on Render. The database is hosted on MongoDB Atlas",
@@ -83,24 +99,6 @@
                 "image": "/projects/ecommerce.webp",
                 "liveLink": "https://basic-ecommerce-eight.vercel.app/",
                 "githubLink": "https://github.com/brunoviews/basic-ecommerce",
-                "tech": "React | CSS | Local Storage | React Hooks"
-            },
-            {
-                "id": "todoapp",
-                "title": "To Do List App",
-                "description": "Task management application that allows adding, completing, and deleting tasks.",
-                "image": "/projects/lite.webp",
-                "liveLink": "https://taskmaster-livid.vercel.app/",
-                "githubLink": "https://github.com/brunoviews/taskmaster",
-                "tech": "React | CSS | Local Storage | React Hooks"
-            },
-            {
-                "id": "taskmanager",
-                "title": "Task Manager App",
-                "description": "Collaborative task management application designed to organize and prioritize team tasks.",
-                "image": "/projects/master.webp",
-                "liveLink": "https://taskmanager-umber.vercel.app/",
-                "githubLink": "https://github.com/brunoviews/taskmanager",
                 "tech": "React | CSS | Local Storage | React Hooks"
             }
         ]
