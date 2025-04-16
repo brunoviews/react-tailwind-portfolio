@@ -12,7 +12,7 @@
     "subtitle2": "Desarrollador Frontend",
     "subtitle3": " con experiencia en",
     "subtitle4": "Actualmente, estoy ampliando mis conocimientos en",
-    "tech": "Inteligencia Artificial",
+    "tech": "Python",
     "cvbutton": "Descargar CV",
     "chatbotinfo": "Puedes probar mi",
     "chatbotinfo2": "abajo a la derecha de tu navegador."
@@ -65,26 +65,15 @@
   "projects": {
     "title": "Proyectos",
     "project": [
-      
       {
-        "id": "daromaweb",
-        "title": "Daroma Innovations",
-        "description": "Página web de la empresa Daroma Innovations. Diseño y desarrollo de la página web de la empresa. Animaciones y transiciones de página con Framer Motion.",
-        "image": "/projects/daroma.webp",
-        "liveLink": "https://daroma.vercel.app/",
-        "githubLink": "https://github.com/brunoviews/daroma",
-        "tech": "React | UX/UI  | Framer Motion | CSS Animations"
-    },
-    {
-        "id": "digitaly",
-        "title": "Digitaly",
-        "description": "Web para un producto de Daroma Innovations que ofrece servicios financieros. Diseño y desarrollo de la página",
-        "image": "/projects/digitaly.webp",
-        "liveLink": "https://github.com/brunoviews/calculai",
-        "githubLink": "https://github.com/brunoviews/taskmanager",
-        "tech": "React | CSS | UX/UI | Material UI"
-    },
-      
+        "id": "extensionManager",
+        "title": "Extension Manager",
+        "description": "Extension Manager es una aplicación web que permite a los usuarios gestionar extensiones de navegador. Los usuarios pueden activar, desactivar y eliminar extensiones, así como filtrar las extensiones por estado (activas, inactivas o todas).",
+        "image": "/projects/extension-manager.webp",
+        "liveLink": "https://extension-manager-drab.vercel.app",
+        "githubLink": "https://github.com/brunoviews/extension-manager",
+        "tech": "React | TailwindCSS | Responsive | React Hooks | Filters"
+      },
       {
         "id": "airbnb",
         "title": "Airbnb Clone",
@@ -95,17 +84,32 @@
         "tech": "React | Nodejs | Mongodb Atlas | Render | Tailwind CSS | Filters"
       },
       {
-        "id": "ecommerce",
-        "title": "E-commerce Store",
-        "description": "Tienda online básica con funciones de búsqueda, filtro y carrito de compras.",
-        "image": "/projects/ecommerce.webp",
-        "liveLink": "https://basic-ecommerce-eight.vercel.app/",
-        "githubLink": "https://github.com/brunoviews/basic-ecommerce",
-        "tech": "React | CSS | Local Storage | React Hooks | Filters"
-        
-        
+        "id": "harrypotter",
+        "title": "Harry Potter App",
+        "description": "Aplicación web que muestra información sobre los personajes de Harry Potter. Utiliza la API de Harry Potter para obtener datos y mostrarlos en la aplicación. Busquedas y filtros.",
+        "image": "/projects/harry-potter.png",
+        "liveLink": "https://harry-potter-app-lilac.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/harry-potter-app",
+        "tech": "React | CSS | API Rest | React Hooks | Filters"
+      },
+      {
+        "id": "daromaweb",
+        "title": "Daroma Innovations",
+        "description": "Página web de la empresa Daroma Innovations. Diseño y desarrollo de la página web de la empresa. Animaciones y transiciones de página con Framer Motion.",
+        "image": "/projects/daroma.webp",
+        "liveLink": "https://daroma.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/daroma",
+        "tech": "React | UX/UI  | Framer Motion | CSS Animations"
+      },
+      {
+        "id": "digitaly",
+        "title": "Digitaly",
+        "description": "Web para un producto de Daroma Innovations que ofrece servicios financieros. Diseño y desarrollo de la página",
+        "image": "/projects/digitaly.webp",
+        "liveLink": "https://github.com/brunoviews/calculai",
+        "githubLink": "https://github.com/brunoviews/taskmanager",
+        "tech": "React | CSS | UX/UI | Material UI"
       }
-   
     ]
   }
 }

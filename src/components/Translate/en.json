@@ -12,7 +12,7 @@
         "subtitle2": "Frontend Developer",
         "subtitle3": "experienced in building responsive websites and web applications using",
         "subtitle4": "Currently, I'm expanding my knowledge in",
-        "tech": "Artificial Intelligence",
+        "tech": "Python",
         "cvbutton": "Download CV",
         "chatbotinfo": "Try my",
         "chatbotinfo2": "in the right corner of the screen."
@@ -66,6 +66,33 @@
         "title": "Projects",
         "project": [
             {
+                "id": "extensionManager",
+                "title": "Extension Manager",
+                "description": "Extension Manager is a web application that allows users to manage browser extensions. Users can enable, disable, and delete extensions, as well as filter extensions by status (active, inactive, or all).",
+                "image": "/projects/extension-manager.webp",
+                "liveLink": "https://extension-manager-drab.vercel.app",
+                "githubLink": "https://github.com/brunoviews/extension-manager",
+                "tech": "React | TailwindCSS | Responsive | React Hooks | Filters"
+              },
+            {
+                "id": "airbnb",
+                "title": "Airbnb Clone",
+                "description": "Clone of the Airbnb website with filtering functionalities. I have integrated a small Backend deployed on Render. The database is hosted on MongoDB Atlas",
+                "image": "/projects/airbnb.webp",
+                "liveLink": "https://airbbnb-clone.vercel.app/",
+                "githubLink": "https://github.com/brunoviews/airbbnb-clone",
+                "tech": "React | Nodejs | Mongodb Atlas | Render | Tailwind CSS | Filters"
+            },
+            {
+                "id": "harrypotter",
+                "title": "Harry Potter App",
+                "description": "Web application that displays information about Harry Potter characters. It uses the Harry Potter API to fetch data and display it in the app. Search and filter functionalities.",
+                "image": "/projects/harry-potter.png",
+                "liveLink": "https://harry-potter-app-lilac.vercel.app/",
+                "githubLink": "https://github.com/brunoviews/harry-potter-app",
+                "tech": "React | CSS | API Rest | React Hooks | Filters"
+            },
+            {
                 "id": "daromaweb",
                 "title": "Daroma Innovations",
                 "description": "Company website developed for Daroma Innovations. The website is designed to showcase the company's services and portfolio.",
@@ -82,25 +109,8 @@
                 "liveLink": "https://github.com/brunoviews/calculai",
                 "githubLink": "https://github.com/brunoviews/taskmanager",
                 "tech": "React | CSS | UX/UI | Material UI"
-            },
-            {
-                "id": "airbnb",
-                "title": "Airbnb Clone",
-                "description": "Clone of the Airbnb website with filtering functionalities. I have integrated a small Backend deployed on Render. The database is hosted on MongoDB Atlas",
-                "image": "/projects/airbnb.webp",
-                "liveLink": "https://airbbnb-clone.vercel.app/",
-                "githubLink": "https://github.com/brunoviews/airbbnb-clone",
-                "tech": "React | Nodejs | Mongodb Atlas | Render | Tailwind CSS | Filters"
-            },
-            {
-                "id": "ecommerce",
-                "title": "E-commerce Store",
-                "description": "Basic online store with search, filter, and shopping cart functions.",
-                "image": "/projects/ecommerce.webp",
-                "liveLink": "https://basic-ecommerce-eight.vercel.app/",
-                "githubLink": "https://github.com/brunoviews/basic-ecommerce",
-                "tech": "React | CSS | Local Storage | React Hooks"
             }
+         
         ]
     }
 }

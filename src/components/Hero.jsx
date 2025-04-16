@@ -34,17 +34,16 @@ const Hero = () => {
           <span className="text-pink-600 dark:text-pink-400 font-semibold">
             {t("hero.subtitle2")}
           </span>{" "}
-          {t("hero.subtitle3")}{" "}
+          {t("hero.subtitle3")}:{" "}
           <span className="font-bold dark:text-white inline-flex items-center gap-1 cursor-pointer">
             React <ReactIcon className="w-5 h-5" />
-          </span>
-          ,{" "}
+          </span>{" "}
           <span className="font-bold text-gray-800 dark:text-white inline-flex items-center gap-1 cursor-pointer">
             Tailwind CSS <Tailwind className="w-5 h-5" />
           </span>{" "}
-          <span className="text-black font-semibold inline-flex items-center gap-1 dark:text-white cursor-pointer">
+          {/* <span className="text-black font-semibold inline-flex items-center gap-1 dark:text-white cursor-pointer">
             NodeJs <Nodejs className="w-5 h-5" />
-          </span>
+          </span> */}
           .
         </div>
         <p className="mt-2 text-black dark:text-gray-300 max-w-md sm:max-w-xl text-base sm:text-lg text-balance">
