@@ -21,7 +21,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-gray-100 dark:bg-gray-900 p-6 grid gap-2 rounded-lg shadow-lg hover:scale-105 transition-transform"
+              className="bg-gray-100 hover:shadow-black dark:bg-gray-900 p-6 grid gap-2 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-all duration-200 ease-linear hover:dark:shadow-purple-500"
             >
               <img
                 src={project.image}

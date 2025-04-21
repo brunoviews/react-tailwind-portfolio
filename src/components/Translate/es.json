@@ -66,6 +66,15 @@
     "title": "Proyectos",
     "project": [
       {
+        "id": "marvelGalleryApp",
+        "title": "Marvel Gallery App",
+        "description": "Aplicación web que muestra una galería de imágenes de personajes de Marvel. He creado mi propia API en Mocki API para obtener datos y mostrarlos en la aplicación. Busquedas, filtros y añadir a favoritos.",
+        "image": "/projects/marvel-app.webp",
+        "liveLink": "https://marvel-gallery-app.vercel.app/",
+        "githubLink": "https://github.com/brunoviews/marvel-app",
+        "tech": "React | CSS | API Rest | React Hooks | Filters"
+      },
+      {
         "id": "extensionManager",
         "title": "Extension Manager",
         "description": "Extension Manager es una aplicación web que permite a los usuarios gestionar extensiones de navegador. Los usuarios pueden activar, desactivar y eliminar extensiones, así como filtrar las extensiones por estado (activas, inactivas o todas).",
