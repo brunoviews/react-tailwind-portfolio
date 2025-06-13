@@ -12,7 +12,7 @@
     "subtitle2": "Desarrollador Frontend",
     "subtitle3": " con experiencia en",
     "subtitle4": "Actualmente, estoy ampliando mis conocimientos en",
-    "tech": "Python",
+    "tech": "React Native",
     "cvbutton": "Descargar CV",
     "chatbotinfo": "Puedes probar mi",
     "chatbotinfo2": "abajo a la derecha de tu navegador."
@@ -20,6 +20,15 @@
   "experience": {
     "title": "Experiencia",
     "jobs": [
+      {
+        "id": "z1digital",
+        "company": " Z1 Digital Studio",
+        "position": "Desarrollador Frontend",
+        "date": "May 2025 - Actualidad",
+        "description": "Desarrollo de aplicaciones web y móviles utlizando. Implementación de funcionalidades avanzadas y optimización del rendimiento.",
+        "link": "https://www.z1.digital/",
+        "tag": "Último"
+      },
       {
         "id": "daroma",
         "company": "Daroma Innovations",
@@ -40,8 +49,8 @@
         "date": "Graduado en Nov 2024",
         "description": "Aprendiendo a desarrollar aplicaciones web con React, desde la configuración del entorno de desarrollo hasta el despliegue de aplicaciones en producción.",
         "link": "https://www.tokioschool.com/formaciones/cursos-programacion/front-end/",
-        "school": "Tokio School",
-        "tag": "Último"
+        "school": "Tokio School"
+        
       },
       {
         "id": "seas",

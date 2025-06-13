@@ -12,7 +12,7 @@
         "subtitle2": "Frontend Developer",
         "subtitle3": "experienced in building responsive websites and web applications using",
         "subtitle4": "Currently, I'm expanding my knowledge in",
-        "tech": "Python",
+        "tech": "React Native",
         "cvbutton": "Download CV",
         "chatbotinfo": "Try my",
         "chatbotinfo2": "in the right corner of the screen."
@@ -21,6 +21,15 @@
         "title": "Experience",
         "jobs": [
             {
+                "id": "z1digital",
+                "company": "Z1 Digital Studio",
+                "position": "Frontend Developer",
+                "date": "May 2025 - Present",
+                "description": "Development of web and mobile applications. Implementation of advanced functionalities and performance optimization.",
+                "link": "https://www.z1.digital/",
+                "tag": "Latest"
+            },
+            {
                 "id": "daroma",
                 "company": "Daroma Innovations",
                 "position": "Frontend Developer",
@@ -28,8 +37,8 @@
                 "description": "Development of various websites for the company's clients. SEO/SEM analysis and optimization of web page loading speed.",
                 "link": "https://calculai.vercel.app/"
             }
-        ],
-        "ctabutton": "Currently Developing this site"
+        ]
+       
     },
     "education": {
         "title": "Education",
@@ -40,8 +49,8 @@
                 "date": "Graduated in Nov 2024",
                 "description": "Learning to develop web applications with React, from setting up the development environment to deploying applications in production.",
                 "link": "https://www.tokioschool.com/formaciones/cursos-programacion/front-end/",
-                "school": "Tokio School",
-                "tag": "Latest"
+                "school": "Tokio School"
+                
             },
             {
                 "id": "seas",

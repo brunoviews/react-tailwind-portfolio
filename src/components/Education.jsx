@@ -18,7 +18,7 @@ const educations = (t("education.schools", { returnObjects: true }));
           <BriefCase /> {t("education.title")}
         </h2>
         <ol className="relative border-l-2 border-gray-300 dark:border-gray-700">
-          {educations.map((education, index) => (
+          {educations.map((education, _) => (
             <div
               key={education.id}
               className="mb-10 ml-6 flex flex-col md:flex-row items-start gap-4"

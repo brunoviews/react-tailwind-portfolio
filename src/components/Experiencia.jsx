@@ -1,12 +1,9 @@
-import React from "react";
-import Case from "./icons/Case";
-import ArrowIcon from "./icons/ArrowIcon";
-import { useTranslation } from "react-i18next";
+import Case from './icons/Case';
+import { useTranslation } from 'react-i18next';
 
 const Experiencia = () => {
   const { t } = useTranslation();
-  const jobs = t("experience.jobs", { returnObjects: true });
-  
+  const jobs = t('experience.jobs', { returnObjects: true });
 
   return (
     <section
@@ -15,7 +12,7 @@ const Experiencia = () => {
     >
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="flex items-center mb-12 text-3xl font-semibold gap-x-3 text-gray-800 dark:text-white">
-          <Case /> {t("experience.title")}
+          <Case /> {t('experience.title')}
         </h2>
         <ol className="relative border-l-2 border-gray-300 dark:border-gray-700">
           {jobs.map((job) => (
@@ -34,9 +31,15 @@ const Experiencia = () => {
                 </time>
 
                 {/* Título y Empresa */}
-                <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-1">
+                <h3 className="text-lg  font-semibold text-gray-800 dark:text-white mb-1">
                   {job.position}
+                  {job.tag && (
+                    <span className="ml-2 text-white items-center  dark:text-white bg-green-600 text-xs font-medium px-2 p-1  rounded">
+                      {job.tag}
+                    </span>
+                  )}
                 </h3>
+
                 <span className="mt-2 w-fit text-sm font-medium px-2.5 py-0.5 rounded bg-gradient-to-r from-purple-600 to-pink-600 text-white">
                   {job.company}
                 </span>
@@ -47,7 +50,6 @@ const Experiencia = () => {
                 <p className="text-base font-normal text-gray-600 dark:text-gray-400 mb-4">
                   {job.description}
                 </p>
-               
               </div>
             </li>
           ))}

@@ -1,23 +1,14 @@
-import React from "react";
-
-function Card({
-  title,
-  description,
-  imageUrl = "./bdasilva.png",
-  buttonText,
-  onButtonClick,
-}) {
+function Card({ title, description, imageUrl, buttonText, onButtonClick }) {
   return (
-    <div
-      className="rounded-full overflow-hidden transition-transform duration-300 w-full max-w-xs mt-4 hover:translate-y-[-10px]"
-    >
-      {/* Renderizar imagen si está disponible */}
+    <div className="rounded-full  overflow-hidden transition-transform duration-300 w-full max-w-xs mt-4 hover:translate-y-[-10px]">
+      {/* Renderizar imagen si está disponible
+       */}
       {imageUrl && (
         <div className="relative">
           <img
             src={imageUrl}
             alt={title}
-            className="w-48 h-auto rounded-full shadow-xl"
+            className="w-48 h-48 rounded-full shadow-xl"
           />
         </div>
       )}
