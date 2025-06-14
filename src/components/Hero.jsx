@@ -1,4 +1,3 @@
-import React from 'react';
 import SocialLinks from './SocialLinks';
 import LinkedInIcon from './icons/LinkedInIcon';
 import GithubIcon from './icons/GithubIcon';
@@ -21,7 +20,7 @@ const Hero = () => {
         <div className="w-32 sm:w-48 mb-4 mt-3">
           <Card imageUrl="./portfolio.PNG" />
         </div>
-        <Badge text="Currently working at Kromo Devs and Z1" />
+        <Badge text={t('Badge.title')} />
         <p className="text-lg sm:text-xl text-gray-800 dark:text-gray-400 m-2">
           {t('hero.title')}
         </p>

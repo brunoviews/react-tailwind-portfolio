@@ -1,4 +1,3 @@
-import React from "react";
 
 const SocialLinks = ({ link, icon, text }) => {
   return (

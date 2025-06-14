@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import Language from "./Language";
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState("dark");
 

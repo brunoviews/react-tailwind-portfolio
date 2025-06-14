@@ -35,7 +35,7 @@ const Experiencia = () => {
                   {job.position}
                   {job.tag && (
                     <span className="ml-2 text-white items-center  dark:text-white bg-green-600 text-xs font-medium px-2 p-1  rounded">
-                      {job.tag}
+                      {job.Present}
                     </span>
                   )}
                 </h3>

@@ -6,6 +6,9 @@
         "contact": "Contact",
         "language": "Language"
     },
+    "Badge": {
+        "title": "Currently working at Z1 Digital Studio and Kromo Devs"
+    },
     "hero": {
         "title": "Hello, my name is",
         "subtitle": "I'm a",
@@ -25,9 +28,10 @@
                 "company": "Z1 Digital Studio",
                 "position": "Frontend Developer",
                 "date": "May 2025 - Present",
-                "description": "Development of web and mobile applications. Implementation of advanced functionalities and performance optimization.",
+                "description": "Frontend development of web and mobile applications using React, React Native with TypeScript and Styled Components.",
                 "link": "https://www.z1.digital/",
-                "tag": "Latest"
+                "tag": "Latest",
+                "Present": "Present"
             },
             {
                 "id": "daroma",
@@ -38,7 +42,6 @@
                 "link": "https://calculai.vercel.app/"
             }
         ]
-       
     },
     "education": {
         "title": "Education",
@@ -50,7 +53,6 @@
                 "description": "Learning to develop web applications with React, from setting up the development environment to deploying applications in production.",
                 "link": "https://www.tokioschool.com/formaciones/cursos-programacion/front-end/",
                 "school": "Tokio School"
-                
             },
             {
                 "id": "seas",
@@ -82,7 +84,6 @@
                 "liveLink": "https://marvel-gallery-app.vercel.app/",
                 "githubLink": "https://github.com/brunoviews/marvel-app",
                 "tech": "React | CSS | API Rest | React Hooks | Filters"
-                
             },
             {
                 "id": "extensionManager",
@@ -92,7 +93,7 @@
                 "liveLink": "https://extension-manager-drab.vercel.app",
                 "githubLink": "https://github.com/brunoviews/extension-manager",
                 "tech": "React | TailwindCSS | Responsive | React Hooks | Filters"
-              },
+            },
             {
                 "id": "airbnb",
                 "title": "Airbnb Clone",
@@ -129,7 +130,6 @@
                 "githubLink": "https://github.com/brunoviews/taskmanager",
                 "tech": "React | CSS | UX/UI | Material UI"
             }
-         
         ]
     }
 }

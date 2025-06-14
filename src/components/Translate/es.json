@@ -6,6 +6,10 @@
     "contact": "Contacto",
     "language": "Idioma"
   },
+
+  "Badge": {
+    "title": "Actualmente trabajando en Z1 Digital Studio y Kromo Devs"
+  },
   "hero": {
     "title": "Hola, mi nombre es",
     "subtitle": "Soy",
@@ -25,9 +29,10 @@
         "company": " Z1 Digital Studio",
         "position": "Desarrollador Frontend",
         "date": "May 2025 - Actualidad",
-        "description": "Desarrollo de aplicaciones web y móviles utlizando. Implementación de funcionalidades avanzadas y optimización del rendimiento.",
+        "description": "Desarrollo Frontend de aplicaciones web y móviles utilizando React, React Native con TypesScript y Styled Components.",
         "link": "https://www.z1.digital/",
-        "tag": "Último"
+        "tag": "Último",
+        "Present": "Actualidad"
       },
       {
         "id": "daroma",
