@@ -18,7 +18,7 @@ const Hero = () => {
         className="flex flex-col pb-3 justify-center items-center text-center min-h-screen bg-slate-100 dark:bg-black/95 text-black dark:text-white pt-20 px-4 sm:px-6 lg:px-8 transition-colors duration-500"
       >
         <div className="w-32 sm:w-48 mb-4 mt-3">
-          <Card imageUrl="./portfolio.PNG" />
+          <Card imageUrl="./portfolio.webp" />
         </div>
         <Badge text={t('Badge.title')} />
         <p className="text-lg sm:text-xl text-gray-800 dark:text-gray-400 m-2">
