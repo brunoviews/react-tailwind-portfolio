@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import MoonIcon from "./icons/MoonIcon";
 import Sun from "./icons/Sun";
 import { useTranslation } from "react-i18next";
